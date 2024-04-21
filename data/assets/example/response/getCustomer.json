@@ -1,0 +1,51 @@
+{
+    "baseData": {
+        "p_err_code": "0",
+        "p_err_message": "Thành công"
+    },
+    "extendData": {
+        "p_custid": "000000000005662",
+        "p_firstname": "TRẦN",
+        "p_middlename": "THANH",
+        "p_lastname": "HÀ",
+        "p_fullname": "TRẦN THANH HÀ",
+        "p_shortname": "null",
+        "p_mobile": "0394876651",
+        "p_sex": "F",
+        "p_birthdate": "15/09/2001",
+        "p_current_address": {
+            "p_country": "000",
+            "p_province": "01",
+            "p_district": "015",
+            "p_ward": "01355",
+            "p_address_detail": "Số 4 ngõ 82"
+        },
+        "p_job": "1",
+        "p_status": "A",
+        "p_kycstatus": "A",
+        "p_email": "abc@gmail.com",
+        "p_avatar": {
+            "p_defaulturl": "https://www.saokim.com.vn/blog/wp-content/uploads/2017/03/viettel-quy-hoach-tong-dai-cham-soc-khach-hang.jpg",
+            "p_hdpiurl": "https://www.saokim.com.vn/blog/wp-content/uploads/2017/03/viettel-quy-hoach-tong-dai-cham-soc-khach-hang.jpg",
+            "p_mdpiurl": "https://www.saokim.com.vn/blog/wp-content/uploads/2017/03/viettel-quy-hoach-tong-dai-cham-soc-khach-hang.jpg",
+            "p_ldpiurl": "https://www.saokim.com.vn/blog/wp-content/uploads/2017/03/viettel-quy-hoach-tong-dai-cham-soc-khach-hang.jpg"
+        },
+        "p_idkyc": {
+            "p_idtype": "008",
+            "p_idcode": "4702938423",
+            "p_iddate": "27/06/2015",
+            "p_idexpdated": "24/05/2030",
+            "p_national": "000",
+            "p_idplace": "CA HN",
+            "p_permanent_address": {
+                "p_country": "000",
+                "p_province": "01",
+                "p_district": "015",
+                "p_ward": "01355",
+                "p_address_detail": "Số 4 ngõ 82"
+            },
+            "p_status": "A",
+            "p_ekyc_lvl": "3"
+        }
+    }
+}

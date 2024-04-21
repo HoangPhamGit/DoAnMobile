@@ -1,0 +1,40 @@
+{
+  "baseData": {
+    "p_err_code": "0",
+    "p_err_message": "Thành công"
+  },
+  "extendData": {
+    "p_globalid": "P12345677890",
+    "p_ekyc_result": {
+      "p_result_code": 0,
+      "p_result_message": "Nhận dạng thành công",
+      "p_list_confidences": {
+        "p_regaddress_confidence": "0.97",
+        "p_birthdate_confidence": "1.0",
+        "p_country_confidence": "N/A",
+        "p_idcode_confidence": "1.0",
+        "p_iddate_confidence": "N/A",
+        "p_idexpdated_confidence": "N/A",
+        "p_fullname_confidence": "0.94",
+        "p_sex_confidence": "N/A"
+      },
+      "p_idtype": "001",
+      "p_idcode": "036250056749",
+      "p_fullname": "NGUYỄN VĂN A",
+      "p_birthdate": "15/10/2000",
+      "p_sex": "Nam",
+      "p_iddate": "N/A",
+      "p_idexpdated": "15/09/2040",
+      "p_idplace": "N/A",
+      "p_national": "000",
+      "p_permanent_address": {
+        "p_country": "000",
+        "p_province": "01",
+        "p_district": "015",
+        "p_ward": "01355",
+        "p_address_detail": "Số 4 ngõ 82"
+      },
+      "p_min_confidence": "0.94"
+    }
+  }
+}

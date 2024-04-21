@@ -1,0 +1,9 @@
+{
+  "baseData": {
+    "p_err_code": "0",
+    "p_err_message": "Thành công"
+  },
+  "extendData": {
+    "p_globalid": "P12345677890"
+  }
+}

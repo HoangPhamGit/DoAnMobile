@@ -1,0 +1,311 @@
+base:
+  continue: Continue
+  start: Start
+  all: "All"
+  error:
+    network-offline: "Please check your Internet/3G/Wifi connection \r\n"
+    socket-exception: An error has occurred while connecting to the server. Please try again!
+    request-timeout: Timeout expired. Please try again!
+    end-session: The login session has expired. Please log in again to the application!
+    auth-xac-thuc: No verification code entered
+    mess-400-days: Number of days cannot exceed 400 days
+    load-data-err: Loading data error. Please try again
+    data_download_failed: Download failed!
+    err-connect-server: The connection was temporarily interrupted
+    err-base: The system is busy. Please try again later
+    err-system-updating: Incorrect data format
+    network-error: Please check your internet connection
+    err-403: The account does not have the right to make transactions
+    err-not-permission: The account does not have permission to perform the function
+    err-code: An error has occurred
+    feature-development: This feature is in development.
+    check-input-data: Please check the input data
+    required-field: "*Required field"
+    wrong-format: Wrong format
+    invalid-format: Phone numbers must start with 0, include digits (0-9). Length 10-20 characters
+    invalid-phoneland: Landline number consists of digits (0-9) and set of characters {"(", ")", ".", " "}. Length 9-20 characters.
+    err-root: Your device is being rooted/jailbroken. For the safety of our customers, we do not support use on this device.
+    please-download-system-configuration: Please reload the system configuration!
+  close: Close
+  done: Done
+  agree: Agree
+  confirm: Confirm
+  accept: Accept
+onboarding:
+  step-1:
+    title: "Helps you pay easily anytime, anywhere."
+    content: "E-wallets have the ability to pay bills online, shop, and recharge phones."
+login:
+  title: Login
+  start-using: To start using
+  phone-number: Phone number
+  username: Username
+  password: Password
+  forgot-password: Forgot password
+  log-in-another-way: Or log in with
+  no-account: You do not have an account
+  register: Register
+register:
+  title: Register an account
+  username: The registered phone number will be your account login name.
+  phone-number: Phone number
+  term-service-1: I agree to
+  term-service-2: the terms and conditions
+  term-service-3: when using FlexPay's services
+  next: Next
+  term-contract: Terms of contract
+  term-condition: Terms and conditions
+  agree: I'm understand
+  otp: OTP code authentication
+  enter-otp-validation: Enter the verification code sent to the phone number
+  resend-otp: Resend the code
+  enter-user-name: Enter your name to continue creating an account
+  first-lastname: Full name
+  create-password: Create password
+  password-require: Password must contain at least 10 characters. Include at least 1 uppercase character and 1 special character.
+  password: Password
+  enter-password: Enter password
+  success-create-account: Account opened successfully
+  login-account: Login account
+  login-biometrics: You can enable quick biometric login!
+  enable-biometrics: Enable biometrics
+  start-login: Start login
+main-menu:
+  bottom-nav-bar:
+    home: Home
+    promotion: Promotion
+    history: History
+    setting: Setting
+  setting:
+    account: Account
+    personal-information: Personal information
+    bank-management: Bank management
+    manage-invoices: Manage invoices
+    security: Security
+    change-pin: Change PIN code
+    change-password: Change password
+    login-via-bio: Biometric login
+    utilities: Utilities
+    introduce: Introduce
+    terms: Terms of use
+    other: Other
+    help: Help
+    logout: Log out
+forgot-password:
+  title-forgot-password: Forgot password
+  phone-number: Phone number
+  content: Enter the phone number you registered with !
+  continue: Continue
+  warning: Warning content. Maximum 2 lines
+  otp: Verify OTP code
+  enter-otp-validation: Enter the verification code sent to your phone number
+  resend-otp: Resend code
+  change-password: Change Password
+  password-required: Password must contain at least 10 characters. Contains at least 1 uppercase character and 1 special character.
+  new-password: A new password
+  enter-new-password: Enter a new password
+  hello: Hello
+  user-name: Nguyen Van A
+  have-user-account: Have another account?
+  logout: Logout
+  password: Password
+  login: Login
+  use-FaceID: Use FaceID
+  facebook: Facebook
+  zalo: Zalo
+  or-login-with: Or login with
+  password-changed-success: Password changed successfully
+bill-management:
+  bill-title: Bill management
+  bill-reminder: Bill reminder schedule
+  automatic-payment: Automatic payment
+  create-bill-reminder-schedule-now: Create a bill reminder schedule now
+  create-bill-reminder-schedule: Create a bill reminder schedule
+  create-automatic-bill-payments-now: Create automatic bill payments now
+  create-automatic-bill-payments: Create automatic invoices
+  no-have-bill: You don't have a bill yet
+  type-service: Type of service
+  water-bill: Water bill
+  electric-bill: Electricity bill
+  postpaid-phone: Postpaid phone
+  internet-bill: Internet bill
+  tuition: Tuition fee
+  supplier: Supplier
+  choose-supplier: Choose a supplier
+  enter-search: Enter search
+  option: Options
+  delete-bill: Delete invoice
+  edit-bill: Edit bill
+  set-up-auto-payment: Set up automatic payment
+  skip: Skip
+  choose-service: Choose the type of service
+  customer-name: Customer name
+  money: Amount of money
+  pay-immediately: Pay immediately
+  default: Default
+  bill-confirm: Confirm the invoice
+  service: Service
+  customer-code: Customer code
+  confirm: Confirm
+  enter-customer-code: Enter customer code
+  error: Invalid customer code. Please check again
+  fund: Source of money
+  chose-fund: Choose a source of money
+  add-fund: Add a funding source
+  all-status: All statuses
+  create-calendar: Create calendar
+  continue: Continue
+home-screen:
+  account:
+    hello: Hello
+    user-name: Linh
+    balance: Balance
+  bill:
+    code: Code
+    bill-balance: Balance
+  money-services:
+    nap-tien: Topup
+    rut-tien: Transfer
+    chuyen-tien: Transfer funds
+    lien-ket: Link
+  titles:
+    all: All
+    bill: Bill
+    services: Services
+    promotion: Promotion
+    preferential: Preferential
+  services:
+    nap-tien: Topup
+    chuyen-tien: Transfer
+    khuyen-mai: Promotion
+    mua-the: Phone recharge
+    ql-the: Card management
+    ql-hoa-don: Bill management
+    hd-dien: Electricity
+    hd-nuoc: Water
+popup:
+  authentication: Account authentication
+  authentication-content: Account authentication content
+  bill-payment: Bill Payment
+  bill-payment-content: You have 3 bills to pay
+  wallet-activation: Wallet activation
+  wallet-activation-content: Wallet activation content
+top-up-phone:
+  top-up-phone: Top up phone
+  buy-phone-card: Buy phone card
+  phone-number: Phone number
+  error: Invalid phone number
+  denominations: Deposit denomination
+  continue: Next
+  share: Share
+  otp: Authenticate OTP code
+  enter-otp-validation: Enter the validation code sent to the phone number
+  resend-otp: Resend the code
+  transaction-details: Transaction details
+  transaction-type: Transaction type
+  status: Status
+  success: Success
+  trading-code: Transaction code
+  time: Time
+  account: Account
+  fee: Fee
+  amount-money: Amount
+  trade-again: Trade again
+  phonebook: Contacts
+  enter-search: Enter search
+  choose-carrier: Choose a carrier
+  card-value: Card face value
+  number-of-card: Number of cards
+  promotional-code: Promotional code
+  provisional: Provisional
+  pay-confirm: Confirm payment
+  fund: Source of money
+  total-amount: Total amount
+  recharge: Recharge
+account-info:
+  title:
+    change: Edit
+    account-info: Personal information
+    infomation: Infomation
+    identification: Identification document information has been approved
+  button:
+    save-change: Save
+    confirm: Confirm
+    change-picture: Change avatar
+    take-picture: Take a photo
+    upload-picture: Upload photos
+    skip: Skip
+  row-label:
+    user-name: User name
+    name: Full name
+    phone-number: Phone number
+    email: Email
+    address: Address
+    job: Job
+    ngay-sinh: Date of birth
+    paper-type: Type of approved identification documents
+    cccd-number: No
+    ngay-cap: Date
+    noi-cap: place
+    quoc-tich: Nationality
+    dc-thuong-chu: Place of origin
+    ngay-het-han: Date of expiry
+link-card:
+  title:
+    ql-lienket: Manage banking links
+    hien-tai: Current card
+    them-moi: Add new card
+    chuc-nang: Function
+    ten-chu: Card holder name
+    hieu-luc: Date of expiry
+    lienket-NH: Bank card
+    nhap-tt: Enter card information
+    so-the: Card/Account number
+    otp: Verify OTP code
+  button:
+    otp: Confirm OTP
+    next: Next
+    the-nh: Bank card
+    the-td: Credit card
+    mac-dinh: Set as default method
+    xoa: Delete card
+  content:
+    ho-tro: Only supports cards issued in Vietnam. International cards allow domestic use for payment transactions.
+    tim-kiem: Search for banks
+    nhap-tt: Please enter all information on the hard card of the bank you want to link.
+    nhap-ma: Enter the authentication code sent to your phone number by the bank
+    otp: OTP
+    mac-dinh: Default
+    thanh-cong: Linked bank card successfully!
+    that-bai: Bank card link failed!
+QR:
+  title:
+    qr-scan: Scan or upload QR to transact
+    huong-dan: Move the camera to the QR code to scan
+    chuyen-tien: Transfer money
+    xac-nhan: Confirm money transfer
+    nguon-tien: Funds
+    enter-pin: Enter your PIN
+    forgot-pin: Forgot your PIN?
+    share: Share your QR code
+    so-tien: The amount you want to receive
+  button:
+    scan: Scan QR
+    qr-code: My QR code
+    next: Next
+    confirm: Confirm
+  content:
+    so-du: Surplus
+    vnd: vnd
+    free: Free
+    flexpay: FlexPay
+    so-tk: Account number
+    ten-tk: account name
+    so-tien-chuyen: Transfer amount
+    noi-dung: Content
+    phi: Fee
+    tong-tien: Total amount
+    nhap-ma: Enter your PIN to authenticate the transaction
+    them-tien: Add the amount you want to receive
+    so-tien: Amount of money
+    so-tien-nhan: Amount received

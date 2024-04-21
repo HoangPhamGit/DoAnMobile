@@ -1,0 +1,16 @@
+{
+  "baseData": {
+    "p_err_code": "0",
+    "p_err_message": "So dien thoai da dang ky"
+  },
+  "extendData": {
+    "p_needconfirmotp": true,
+    "p_systemotp": {
+      "p_otp_method": "SMS_OTP",
+      "p_otp_target": "*******602 (hoặc *******abc@gmail.com với email)",
+      "p_exp_time": "04/04/2024 12:14:39",
+      "p_next_resend_time": "04/04/2024 12:15:39"
+    },
+    "p_globalid": "P12345677890"
+  }
+}

@@ -1,0 +1,345 @@
+base:
+  continue: "Tiếp tục"
+  start: "Bắt đầu"
+  all: "Tất cả"
+  error:
+    network-offline: "Quý khách vui lòng kiểm tra kết nối \r\n Internet/3G/Wifi"
+    socket-exception: Có lỗi đã xảy ra khi kết nối với máy chủ. Vui lòng thực hiện lại!
+    request-timeout: Hết thời gian chờ. Vui lòng kiểm tra lại!
+    end-session: Phiên đăng nhập đã hết hiệu lực. Quý khách vui lòng đăng nhập lại ứng dụng!
+    auth-xac-thuc: Chưa nhập mã xác thực
+    mess-400-days: Số ngày tra cứu không vượt quá 400 ngày
+    load-data-err: Lỗi tải dữ liệu. Vui lòng thử lại
+    data_download_failed: Tải dữ liệu không thành công!
+    err-connect-server: Kết nối tạm thời bị gián đoạn
+    err-base: Hệ thống đang bận. Vui lòng thử lại sau
+    err-system-updating: Dữ liệu không đúng định dạng
+    network-error: Vui lòng kiểm tra kết nối mạng
+    err-403: Tài khoản không có quyền thực hiện giao dịch
+    err-not-permission: Tài khoản không có quyền thực hiện chức năng
+    err-code: Đã có lỗi xảy ra
+    check-input-data: Vui lòng kiểm tra dữ liệu nhập
+    required-field: '*Trường dữ liệu bắt buộc'
+    wrong-format: Sai định dạng
+    invalid-format: Số điện thoại phải bắt đầu bằng 0, bao gồm kí tự kiểu số (0-9). Độ dài (10-20) ký tự
+    invalid-phoneland: Số cố định bao gồm kí tự kiểu số (0-9) và tập các kí tự {"(", ")", ".", " "}. Độ dài (9-20) ký tự.
+    err-root: Thiết bị của bạn đang bị root/jailbreak. Để đảm bảo an toàn cho khách hàng, chúng tôi không hỗ trợ sử dụng trên thiết bị này.
+    please-download-system-configuration: Vui lòng tải lại cấu hình hệ thống!
+  close: Đóng
+  done: Xong
+  agree: Đồng ý
+  confirm: Xác nhận
+  accept: Chấp nhận
+  completed: Hoàn tất
+onboarding:
+  step-1:
+    title: "Giúp bạn thanh toán dễ dàng mọi lúc, mọi nơi."
+    content: "Ví điện tử có khả năng thanh toán trực tuyến các loại hóa đơn, mua sắm, nạp tiền điện thoại."
+login:
+  title: Đăng nhập
+  start-using: Để bắt đầu sử dụng
+  phone-number: Số điện thoại
+  username: Tên đăng nhập
+  password: Mật khẩu
+  forgot-password: Quên mật khẩu
+  log-in-another-way: Hoặc đăng nhập bằng
+  no-account: Bạn chưa có tài khoản
+  register: Đăng ký
+register:
+  title: Đăng ký tài khoản
+  username: Số điện thoại đăng ký sẽ là tên đăng nhập tài khoản của bạn.
+  phone-number: Số điện thoại
+  term-service-1: Tôi đồng ý với
+  term-service-2: điều khoản và điều kiện
+  term-service-3: khi sử dụng dịch vụ của FlexPay
+  next: Tiếp Theo
+  term-contract: Điều khoản hợp đồng
+  term-condition: Điều khoản và điều kiện
+  agree: Tôi đã hiểu
+  otp: Xác thực mã OTP
+  enter-otp-validation: Nhập mã xác thực được gửi vào số điện thoại
+  resend-otp: Gửi lại mã
+  enter-user-name: Nhập tên của bạn để tiếp tục tạo tài khoản
+  first-lastname: Họ và tên
+  create-password: Tạo mật khẩu
+  password-require: Mật khẩu phải chứa ít nhất 10 ký tự. Chức ít nhất 1 ký tự viết hoa, 1 ký tự đặc biệt.
+  password: Mật Khẩu
+  enter-password: Nhập lại mật khẩu
+  success-create-account: Mở tài khoản thành công
+  login-account: Tài khoản đăng nhập
+  login-biometrics: Bạn có thể kích hoạt tính năng đăng nhập nhanh bằng sinh trắc học!
+  enable-biometrics: Kích hoạt sinh trắc học
+  start-login: Bắt đầu đăng nhập
+main-menu:
+  bottom-nav-bar:
+    home: Trang chủ
+    promotion: Khuyến mại
+    history: Lịch sử
+    setting: Cài đặt
+  setting:
+    account: Tài khoản
+    personal-information: Thông tin cá nhân
+    bank-management: Quản lý ngân hàng
+    manage-invoices: Quản lý hoá đơn
+    security: Bảo mật
+    change-pin: Đổi mã PIN
+    change-password: Đổi mật khẩu
+    login-via-bio: Đăng nhập sinh trắc học
+    utilities: Tiện ích
+    introduce: Giới thiệu
+    terms: Điều khoản sử dụng
+    other: Khác
+    help: Trợ giúp
+    logout: Đăng xuất
+forgot-password:
+  title-forgot-password: Quên mật khẩu
+  phone-number: Số điện thoại
+  content: Nhập số điện thoại mà bạn đăng ký !
+  continue: Tiếp tục
+  warning: Nội dung cảnh báo. Tối đa 2 dòng
+  otp: Xác thực mã OTP
+  enter-otp-validation: Nhập mã xác thực được gửi vào số điện thoại
+  resend-otp: Gửi lại mã
+  change-password: Đổi mật khẩu
+  password-required: Mật khẩu phải chứa ít nhất 10 ký tự. Chứa ít nhất 1 ký tự viết hoa, 1 ký tự đặc biệt.
+  new-password: Mật Khẩu mới
+  enter-new-password: Nhập lại mật khẩu mới
+  hello: Xin chào
+  user-name: Nguyễn Văn A.
+  have-user-account: Có tài khoản khác?
+  logout: Đăng xuất
+  password: Mật khẩu
+  login: Đăng nhập
+  use-FaceID: Sử dụng FaceID
+  facebook: Facebook
+  zalo: Zalo
+  or-login-with: Hoặc đăng nhập bằng
+  password-changed-success: Đổi mật khẩu thành công !
+bill-management:
+  bill-title: Quản lý hóa đơn
+  bill-reminder: Lịch nhắc hóa đơn
+  automatic-payment: Thanh toán tự động
+  create-bill-reminder-schedule-now: Tạo lịch nhắc hóa đơn ngay
+  create-bill-reminder-schedule: Tạo lịch nhắc hóa đơn
+  create-automatic-bill-payments-now: Tạo thanh toán hóa đơn tự động ngay
+  create-automatic-bill-payments: Tạo hóa đơn tự động
+  no-have-bill: Bạn chưa có hóa đơn
+  type-service: Loại dịch vụ
+  water-bill: Hóa đơn nước
+  electric-bill: Hóa đơn điện
+  postpaid-phone: Điện thoại trả sau
+  internet-bill: Hóa đơn Internet
+  tuition: Học phí
+  supplier: Nhà cung cấp
+  choose-supplier: Chọn nhà cung cấp
+  enter-search: Nhập tìm kiếm
+  option: Tùy chọn
+  delete-bill: Xóa hóa đơn
+  edit-bill: Sủa hóa đơn
+  set-up-auto-payment: Cài thanh toán tự động
+  skip: Bỏ qua
+  choose-service: Chọn loại dịch vụ
+  customer-name: Tên khách hàng
+  money: Số tiền
+  pay-immediately: Thanh toán ngay
+  default: Mặc định
+  bill-confirm: Xác nhận hóa đơn
+  service: Dịch vụ
+  customer-code: Mã khách hàng
+  confirm: Xác nhận
+  enter-customer-code: Nhập mã khách hàng
+  error: Mã khách hàng không hợp lệ. Vui lòng kiểm tra lại
+  fund: Nguồn tiền
+  chose-fund: Chọn nguồn tiền
+  add-fund: Thêm nguồn tiền
+  all-status: Tất cả trạng thái
+  create-calendar: Tạo lịch
+  continue: Tiếp tục
+top-up-phone:
+  top-up-phone: Nạp tiền điện thoại
+  buy-phone-card: Mua thẻ điện thoại
+  phone-number: Số điện thoại
+  error: Số điện thoại không hợp lệ
+  denominations: Mệnh giá nạp
+  continue: Tiếp theo
+  share: Chia sẻ
+  otp: Xác thực mã OTP
+  enter-otp-validation: Nhập mã xác thực được gửi vào số điện thoại
+  resend-otp: Gửi lại mã
+  transaction-details: Chi tiết giao dịch
+  transaction-type: Loại giao dịch
+  status: Trạng thái
+  success: Thành công
+  trading-code: Mã giao dịch
+  time: Thời gian
+  account: Tài khoản
+  fee: Phí
+  amount-money: Số tiền
+  trade-again: Giao dịch lại
+  phonebook: Danh bạ
+  enter-search: Nhập tìm kiếm
+  choose-carrier: Chọn nhà mạng
+  card-value: Mệnh giá thẻ
+  number-of-card: Số lượng thẻ
+  promotional-code: Mã khuyến mại
+  provisional: Tạm tính
+  pay-confirm: Xác nhận thanh toán
+  fund: Nguồn tiền
+  total-amount: Tổng tiền
+  recharge: Nạp tiền
+
+biometric_authentication:
+  enter-pin-code: Nhập mã PIN
+  enter-pin-activate: Nhập mã PIN của bạn để kích hoạt sinh trắc học
+  success-active: Kích hoạt sinh trắc học thành công !
+  forgot-pin-code: Quên mã PIN ?
+
+
+
+
+
+
+home-screen:
+  account:
+    hello: Xin chào
+    user-name: Linh
+    balance: Số dư
+  bill:
+    code: HĐ
+    bill-balance: Số tiền
+  money-services:
+    nap-tien: Nạp tiền
+    rut-tien: Rút tiền
+    chuyen-tien: Chuyển tiền
+    lien-ket: Liên kết
+  titles:
+    all: Tất cả
+    bill: Hóa đơn
+    services: Dịch vụ
+    promotion: Khuyến mãi
+    preferential: Ưu đãi khác
+  services:
+    nap-tien: Nạp tiền
+    chuyen-tien: Chuyển tiền
+    khuyen-mai: Khuyến mại của bạn
+    mua-the: Nạp thẻ điện thoại
+    ql-the: Quản lý thẻ NH
+    ql-hoa-don: Quản lý hóa đơn
+    hd-dien: Hóa đơn điện
+    hd-nuoc: Hóa đơn nước
+
+popup:
+  button:
+    authentic: Xác thực
+    payment: Thanh toán
+    activate: Kích hoạt
+    later: Để sau
+  title:
+    authentication: Xác thực khách hàng
+    bill-payment: Thanh toán hóa đơn
+    wallet-activation: Kích hoạt tài khoản ví
+  content:
+    authentication-content: Xác thực khách hàng content
+    bill-payment-content: Bạn có 3 hóa đơn cần thanh toán
+    wallet-activation-content: Kích hoạt tài khoản ví content
+notification:
+  title: Thông báo
+  so-du: Thông báo số dư
+  khac: Thông báo khác
+wallet-account:
+  title: Tài khoản ví điện tử
+  tong-du: Tổng số dư
+  kha-dung: Số dư khả dụng
+  phong-toa: Số dư phong tỏa
+  giao-dich: Hạn mức giao dịch
+  con-lai: Hạn mức còn lại
+  su-dung: Số tiền đã sử dụng
+  so-du: Số dư ví
+  han-muc: Hạn mức sử dụng
+account-info:
+  title:
+    change: Sửa
+    account-info: Thông tin cá nhân
+    infomation: Thông tin
+    identification: Thông tin GTTT đã duyệt
+  button:
+    save-change: Lưu thay đổi
+    confirm: Xác nhận
+    change-picture: Thay đổi ảnh đại diện
+    take-picture: Chụp ảnh
+    upload-picture: Upload ảnh
+    skip: Bỏ qua
+  row-label:
+    user-name: User name
+    name: Họ và tên
+    phone-number: Số điện thoại
+    email: Email
+    address: Địa chỉ
+    job: Nghề nghiệp
+    ngay-sinh: Ngày sinh
+    paper-type: Loại giấy tờ
+    cccd-number: Số CCCD
+    ngay-cap: Ngày cấp
+    noi-cap: Nơi cấp
+    quoc-tich: Quốc tịch
+    dc-thuong-chu: Địa chỉ thường trú
+    ngay-het-han: Ngày hết hạn
+link-card:
+  title:
+    ql-lienket: Quản lý liên kết ngân hàng
+    hien-tai: Liên kết hiện tại
+    them-moi: Thêm liên kết mới
+    chuc-nang: Chức năng
+    ten-chu: Tên chủ thẻ
+    hieu-luc: Hiệu lực
+    lienket-NH: Liên kết ngân hàng
+    nhap-tt: Nhập thông tin liên  kết
+    so-the: Số thẻ/Tài khoản
+    otp: Xác thực mã OTP
+  button:
+    otp: Xác nhận OTP
+    next: Tiếp theo
+    the-nh: Thẻ ngân hàng
+    the-td: Thẻ tín dụng
+    mac-dinh: Đặt làm phương thức mặc định
+    xoa: Xóa Liên kết
+  content:
+    ho-tro: Chỉ hỗ trợ thẻ phát hành tại Việt nam. Thẻ quốc tế cho phép sử dụng trong nước giao dịch thanh toán.
+    tim-kiem: Tìm kiếm ngân hàng
+    nhap-tt: Vui lòng nhập đầy đủ các thông tin trên thẻ cứng của ngân hàng muốn liên kết.
+    nhap-ma: Nhập mã xác thực được ngân hàng gửi vào số điện thoại của bạn
+    otp: OTP
+    mac-dinh: Mặc định
+    thanh-cong: Liên kết thẻ ngân hàng thành công!
+    that-bai: Liên kết thẻ ngân hàng thất bại!
+QR:
+  title:
+    qr-scan: Quét hoặc tải QR lên để giao dịch
+    huong-dan: Di chuyển camera đến mã QR để quét
+    chuyen-tien: Chuyển tiền
+    xac-nhan: Xác Nhận chuyển tiền
+    nguon-tien: Nguồn tiền
+    enter-pin: Nhập mã PIN
+    forgot-pin: Quên mã PIN?
+    share: Chia sẻ mã QR của bạn
+    so-tien: Số tiền muốn nhận
+  button:
+    scan: Quét QR
+    qr-code: Mã QR của tôi
+    next: Tiếp theo
+    confirm: Xác nhận
+  content:
+    so-du: Số dư
+    vnd: đ
+    free: Miễn phí
+    flexpay: FlexPay
+    so-tk: Số tài khoản
+    ten-tk: Tên tài khoản
+    so-tien-chuyen: Số tiền chuyển
+    noi-dung: Nội dung
+    phi: Phí
+    tong-tien: Tổng tiền
+    nhap-ma: Nhập mã PIN của bạn để xác thực giao dịch
+    them-tien: Thêm số tiền muốn nhận
+    so-tien: Số tiền
+    so-tien-nhan: Số tiền nhận
