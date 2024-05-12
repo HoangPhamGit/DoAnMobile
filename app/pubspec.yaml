@@ -62,7 +62,7 @@ dependencies:
   # get month cho the
   flutter_custom_month_picker:
   carousel_slider: 4.2.1
-  cached_network_image: ^3.2.0
+  cached_network_image: ^3.3.0
   shimmer: 3.0.0
 
   data:
